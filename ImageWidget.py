@@ -23,8 +23,8 @@ class ImageWidget(QWidget):
     
     def setImage(self, path: str | None = None):
         if not path: return
-        img = QPixmap(img)
-        scaled_pixmap = img.scaled(self.imageLabel.size(), Qt.AspectRatioMode.KeepAspectRatio, Qt.TransformationMode.SmoothTransformation)
+        self.img = QPixmap(path)
+        scaled_pixmap = self.img.scaled(self.imageLabel.size(), Qt.AspectRatioMode.KeepAspectRatio, Qt.TransformationMode.SmoothTransformation)
         self.imageLabel.setPixmap(scaled_pixmap)
 
 
