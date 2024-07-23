@@ -1,5 +1,5 @@
 from PySide6.QtWidgets import QWidget, QLabel, QApplication, QVBoxLayout, QMainWindow, QMenu
-from PySide6.QtGui import QPixmap, QAction
+from PySide6.QtGui import QPixmap
 from PySide6.QtCore import Qt
 
 class ImageWidget(QWidget):

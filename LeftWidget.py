@@ -1,6 +1,6 @@
 
 from PySide6.QtWidgets import QWidget, QVBoxLayout, QHBoxLayout, QLabel, QLineEdit, QApplication, QTextEdit, QRadioButton, QMessageBox
-from PySide6.QtCore import Signal, Qt
+from PySide6.QtCore import Signal
 from dataModel import DataModel
 
 class LeftWidget(QWidget):

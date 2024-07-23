@@ -1,6 +1,5 @@
 from PIL import Image
 import numpy as np
-from numpy import ndarray
 import math
 
 class ImageRead():

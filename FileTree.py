@@ -1,5 +1,5 @@
 from PySide6.QtWidgets import QApplication, QScrollArea, QTreeView, QLabel, QVBoxLayout, QWidget, QFileSystemModel
-from PySide6.QtCore import QItemSelection, QItemSelectionModel, Signal, Qt
+from PySide6.QtCore import QItemSelection, Signal, Qt
 from PySide6.QtGui import QMouseEvent
 
 class FileTree(QWidget):

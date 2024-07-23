@@ -1,6 +1,6 @@
 from PySide6.QtWidgets import QApplication, QMainWindow, QVBoxLayout, QHBoxLayout, QMenu, QWidget, QLabel, QMessageBox, QStatusBar, QToolBar
-from PySide6.QtCore import QRect, Qt, QThread, Slot, Signal
-from PySide6.QtGui import QPixmap, QAction
+from PySide6.QtCore import QThread, Slot, Signal
+from PySide6.QtGui import QAction
 from LeftWidget import LeftWidget
 from FileTree import FileTree
 from ImageWidget import ImageWidget

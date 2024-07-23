@@ -1,6 +1,5 @@
 from PIL import Image
 import numpy as np
-import math
 from decimal import Decimal, getcontext
 
 class ImageRead():
