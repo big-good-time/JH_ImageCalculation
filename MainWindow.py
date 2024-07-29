@@ -30,7 +30,7 @@ class MainWindow(QMainWindow):
         self.leftLayout.addWidget(self.leftWidget)
         self.leftLayout.addWidget(self.fileTree)
 
-        self.imageWidget = ImageWidget()
+        self.imageWidget = ImageWidget(path=None)
 
         self.rightLayout = QVBoxLayout()
         self.rightLayout.addWidget(self.imageWidget)

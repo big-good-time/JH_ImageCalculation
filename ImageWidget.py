@@ -3,7 +3,7 @@ from PySide6.QtGui import QPixmap
 from PySide6.QtCore import Qt
 
 class ImageWidget(QWidget):
-    def __init__(self, path: str | None = None):
+    def __init__(self, path: str):
         super().__init__()
 
         self.imageLabel = QLabel(self)
@@ -21,7 +21,7 @@ class ImageWidget(QWidget):
         self.setImage(path)
 
     
-    def setImage(self, path: str | None = None):
+    def setImage(self, path: str):
         if not path: return
         self.img = QPixmap(path)
         scaled_pixmap = self.img.scaled(self.imageLabel.size(), Qt.AspectRatioMode.KeepAspectRatio, Qt.TransformationMode.SmoothTransformation)
